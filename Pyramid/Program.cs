@@ -14,7 +14,7 @@ namespace Pyramid
             String rowCount = Console.ReadLine();
             int rowNumber;
             bool good = int.TryParse(rowCount, out rowNumber);
-
+            //test
             while (!good) 
             { 
                 Console.Write("Enter only whole numbers.\n");
